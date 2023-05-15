@@ -13,7 +13,7 @@ export function Testimonio(props) { //"props" sirve para añadir propiedades per
       <div className="contenedor-texto-testimonio"> 
         <p className="nombre-testimonio"><b>{props.nombre}</b> en {props.pais}</p>
         <p className="cargo-testimonio">{props.cargo} en <b>{props.empresa}</b></p>
-        <p className="texto-testimonio">"{props.testimonio}"</p>
+        <p className="texto-testimonio">"{props.testimonio}"</p> 
       </div>
     </div>
   );
